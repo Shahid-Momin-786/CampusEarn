@@ -1,0 +1,78 @@
+# ========================
+# Python / Django
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+*.pot
+*.mo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Secrets — NEVER commit these
+*.env
+.env.*
+local_settings.py
+secrets.py
+
+# ========================
+# Flutter / Dart
+# ========================
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+frontend/.pub-cache/
+frontend/.pub/
+frontend/pubspec.lock
+
+# Android
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/key.properties
+frontend/android/app/google-services.json
+
+# iOS
+frontend/ios/.symlinks/
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Pods/
+frontend/ios/Podfile.lock
+
+# Web build output
+frontend/web/flutter_service_worker.js
+frontend/web/version.json
+
+# ========================
+# IDE / OS
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs & temp
+# ========================
+*.log
+*.tmp
+*.bak
